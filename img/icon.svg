@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" version="1.1" viewBox="0 0 12.7 12.7" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-2.1167 -2.1167)">
+  <circle cx="8.4667" cy="8.4667" r="5.6201" fill="#034f84" stroke="#21a4f6" stroke-linejoin="round" stroke-width="1.1666" style="paint-order:markers fill stroke"/>
+ </g>
+ <g transform="translate(-2.1167 -2.1167)">
+  <rect transform="scale(-1)" x="-11.401" y="-11.553" width="6.0453" height="5.935" rx=".33113" fill="#deeaee" style="paint-order:normal"/>
+  <path d="m10.743 11.315h-4.552c-0.29606 0-0.53441-0.23835-0.53441-0.53441v-4.6272c0-0.29606 0.23835-0.53441 0.53441-0.53441h4.552c0.29606 0 0.53441 0.23835 0.53441 0.53441v4.6272c0 0.29606-0.23834 0.53441-0.53441 0.53441z" fill="none" stroke="#21a4f6" stroke-linejoin="round" stroke-width="1.0367" style="paint-order:normal"/>
+  <g transform="matrix(.62993 0 0 .62993 3.1404 3.0783)"></g>
+  <g fill="#21a4f6">
+   <path d="m11.267 7.9961h-5.6004v-0.79651h5.6004z" style="paint-order:stroke fill markers"/>
+   <path d="m11.267 9.7337h-5.6004v-0.79651h5.6004z" style="paint-order:stroke fill markers"/>
+   <path d="m8.0684 11.318v-3.7797h0.79651v3.7797z" style="paint-order:stroke fill markers"/>
+  </g>
+ </g>
+</svg>

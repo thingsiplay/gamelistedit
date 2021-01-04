@@ -1,0 +1,116 @@
+<style>
+body {
+  font-family: "Georgia", serif;
+  color: #034f84;
+  background-color: white;
+}
+h1, h2, h3 {
+  margin-top: 2em;
+}
+h1, h2 {
+  font-family: "Ubuntu", "Helvetica", "Trebuchet MS", sans-serif;
+  color: #21a4f6;
+  background: #deeaee;
+  border: 0.2em solid #21a4f6;
+  border-radius: 10px;
+}
+h1 {
+  width: 12ch;
+  margin: 1.2em;
+  padding: 0.8em;
+  border-radius: 25px;
+  font-size: 400%;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.2em;
+  word-spacing: 0.2em;
+  line-height: 0.8em;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: x-large;
+  padding: 0.5em 1em;
+}
+h3 {
+  color: #21A4F6;
+  border-left: 0.7em solid #deeaee;
+  border-radius: 5px;
+  padding-left: 1.5em;
+}
+p, img {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+em, strong {
+  color: #21A4F6;
+}
+a {
+  color: #21A4F6;
+  color: #034f84;
+  white-space: nowrap;
+  hyphens: none;
+  text-decoration: none;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-left: 0.2em solid #21a4f6;
+  border-right: 0.2em solid #21a4f6;
+  border-left: 0.2em solid #21a4f6;
+  border-right: 0.2em solid #21a4f6;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 5px;
+}
+a:hover {
+  color: #034f84;
+  color: #21A4F6;
+  background-color: #deeaee;
+  display: inline-block;
+  transform: rotate(-7deg);
+}
+ul {
+  list-style: none;
+}
+li {
+  border-left: 0.2em solid #deeaee;
+  padding-left: 1em;
+  padding-bottom: 0.1em;
+  padding-top: 0.5em;
+}
+li p {
+  margin: 0.3em;
+}
+li ol, li ul {
+  list-style: none;
+  margin-left: 1em;
+  padding: 0.5em;
+}
+li li {
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 0.25em; then path is set to same filename from current open file. Click again to make sure its not the same anymore, automatically adding a tail to it.
+}
+p code, body code {
+  color: #034f84;
+  background-color: #deeaee;
+  hyphens: none;
+  white-space: pre;
+  font-family: "Ubuntu mono", "Courier New", monospace;
+  font-size: normal;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+pre {
+  min-width: 150ch;
+  width: 150ch;
+  font-family: "Ubuntu mono", "Courier New", monospace;
+  font-size: smaller;
+  color: #034f84;
+  background-color: #deeaee;
+  border: 0.1em solid #21A4F6;
+  padding: 0.4em 0.4em 0.8em 0.4em;
+  margin: 0 2.5em 0.5em 2.5em;
+}
+</style>

@@ -1,0 +1,236 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.DEFAULT_GOAL	Makefile	/^.DEFAULT_GOAL := default$/;"	m
+APP	gamelistedit.py	/^    APP = QtWidgets.QApplication(sys.argv)$/;"	v
+APPDIR	Makefile	/^APPDIR := app$/;"	m
+APPICON	Makefile	/^APPICON := ${IMGDIR}\/icon.svg$/;"	m
+APPNAME	Makefile	/^APPNAME := $(shell python3 -m ${MODULESDIR}.meta name)$/;"	m
+APPTITLE	Makefile	/^APPTITLE := $(shell python3 -m ${MODULESDIR}.meta title)$/;"	m
+CPWD	Makefile	/^CPWD := $(shell pwd)$/;"	m
+CPWD	Makefile	/^CPWD := $(shell realpath "${CPWD}")$/;"	m
+DESKTOPFILE	Makefile	/^DESKTOPFILE := ${APPNAME}.desktop$/;"	m
+DESKTOPFILEALT	Makefile	/^DESKTOPFILEALT := ${APPNAME}-alt.desktop$/;"	m
+DISTNAME	Makefile	/^DISTNAME := ${APPNAME}-${VERSION}$/;"	m
+DISTPATH	Makefile	/^DISTPATH := .\/${DISTNAME}$/;"	m
+EOT	modules/misc.py	/^    def EOT(action, std, file):$/;"	f	function:EOT_action
+EOT_action	modules/misc.py	/^def EOT_action():$/;"	f
+GamelistTable	modules/GamelistTable.py	/^class GamelistTable():$/;"	c
+GamelistTableModel	modules/GamelistTable.py	/^class GamelistTableModel(QtCore.QAbstractTableModel):$/;"	c
+IMGDIR	Makefile	/^IMGDIR := img$/;"	m
+INSTALLDESKTOPDIR	Makefile	/^INSTALLDESKTOPDIR := $$HOME\/.local\/share\/applications$/;"	m
+INSTALLDIR	Makefile	/^INSTALLDIR := \/opt\/${APPNAME}$/;"	m
+INSTALLLINKDIR	Makefile	/^INSTALLLINKDIR := \/usr\/local\/bin\/${APPNAME}$/;"	m
+INSTALLSCRIPT	Makefile	/^INSTALLSCRIPT := install.sh$/;"	m
+MODULESDIR	Makefile	/^MODULESDIR := modules$/;"	m
+MainWindow	modules/MainWindow.py	/^class MainWindow(QtWidgets.QMainWindow, QtGui.QWindow):$/;"	c
+PROJECTDIR	Makefile	/^PROJECTDIR := $(shell dirname "${PROJECTDIR}")$/;"	m
+PROJECTDIR	Makefile	/^PROJECTDIR := $(shell realpath ".\/${APPNAME}.py")$/;"	m
+RUNSCRIPT	Makefile	/^RUNSCRIPT := ${APPNAME}$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+UNINSTALLSCRIPT	Makefile	/^UNINSTALLSCRIPT := uninstall.sh$/;"	m
+Ui_mainwindow	modules/gamelistedit_ui.py	/^class Ui_mainwindow(object):$/;"	c
+VERSION	Makefile	/^VERSION := $(shell python3 -m ${MODULESDIR}.meta version)$/;"	m
+__del__	modules/GamelistTable.py	/^    def __del__(self):$/;"	m	class:GamelistTable	file:
+__init__	modules/GamelistTable.py	/^    def __init__(self, file, table, parent, tags, progress):$/;"	m	class:GamelistTable
+__init__	modules/GamelistTable.py	/^    def __init__(self, file, tags, progress):$/;"	m	class:GamelistTableModel
+__init__	modules/MainWindow.py	/^    def __init__(self, arguments):$/;"	m	class:MainWindow
+add_query	modules/MainWindow.py	/^    def add_query(self, data, head, quote=True, maxlen=40):$/;"	m	class:MainWindow
+add_urlquery_source	modules/MainWindow.py	/^    def add_urlquery_source(self, data):$/;"	m	class:MainWindow
+allow_export	modules/MainWindow.py	/^    def allow_export(self, file=None):$/;"	m	class:MainWindow
+append_locked_columns	modules/GamelistTable.py	/^    def append_locked_columns(self, head):$/;"	m	class:GamelistTableModel
+apply_editbox_changes	modules/MainWindow.py	/^    def apply_editbox_changes(self):$/;"	m	class:MainWindow
+arguments	gamelistedit.py	/^    arguments = get_arguments()$/;"	v
+b_edit_delete_clicked	modules/MainWindow.py	/^    def b_edit_delete_clicked(self):$/;"	m	class:MainWindow
+b_edit_duplicate_clicked	modules/MainWindow.py	/^    def b_edit_duplicate_clicked(self):$/;"	m	class:MainWindow
+b_edit_new_clicked	modules/MainWindow.py	/^    def b_edit_new_clicked(self):$/;"	m	class:MainWindow
+b_edit_nextgame_clicked	modules/MainWindow.py	/^    def b_edit_nextgame_clicked(self):$/;"	m	class:MainWindow
+b_edit_prevgame_clicked	modules/MainWindow.py	/^    def b_edit_prevgame_clicked(self):$/;"	m	class:MainWindow
+b_export_exclude_all_clicked	modules/MainWindow.py	/^    def b_export_exclude_all_clicked(self):$/;"	m	class:MainWindow
+b_export_exclude_invert_clicked	modules/MainWindow.py	/^    def b_export_exclude_invert_clicked(self):$/;"	m	class:MainWindow
+b_export_exclude_none_clicked	modules/MainWindow.py	/^    def b_export_exclude_none_clicked(self):$/;"	m	class:MainWindow
+b_export_indent_four_clicked	modules/MainWindow.py	/^    def b_export_indent_four_clicked(self):$/;"	m	class:MainWindow
+b_export_indent_zero_clicked	modules/MainWindow.py	/^    def b_export_indent_zero_clicked(self):$/;"	m	class:MainWindow
+b_filter_clear_clicked	modules/MainWindow.py	/^    def b_filter_clear_clicked(self):$/;"	m	class:MainWindow
+b_filter_rehelp_clicked	modules/MainWindow.py	/^    def b_filter_rehelp_clicked(self):$/;"	m	class:MainWindow
+build_export_exclude	modules/MainWindow.py	/^    def build_export_exclude(self):$/;"	m	class:MainWindow
+cb_export_exclude_desc_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_desc_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_developer_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_developer_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_favorite_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_favorite_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_genre_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_genre_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_hidden_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_hidden_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_id_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_id_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_image_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_image_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_kidgame_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_kidgame_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_lastplayed_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_lastplayed_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_marquee_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_marquee_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_name_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_name_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_path_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_path_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_playcount_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_playcount_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_players_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_players_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_publisher_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_publisher_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_rating_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_rating_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_releasedate_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_releasedate_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_sortname_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_sortname_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_source_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_source_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_stateChanged(self, state):$/;"	m	class:MainWindow
+cb_export_exclude_thumbnail_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_thumbnail_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_exclude_video_stateChanged	modules/MainWindow.py	/^    def cb_export_exclude_video_stateChanged(self, button):$/;"	m	class:MainWindow
+cb_export_indent_stateChanged	modules/MainWindow.py	/^    def cb_export_indent_stateChanged(self, state):$/;"	m	class:MainWindow
+cb_export_sameasopen_clicked	modules/MainWindow.py	/^    def cb_export_sameasopen_clicked(self, checked):$/;"	m	class:MainWindow
+cb_filter_regex_stateChanged	modules/MainWindow.py	/^    def cb_filter_regex_stateChanged(self):$/;"	m	class:MainWindow
+cbb_filter_history_textActivated	modules/MainWindow.py	/^    def cbb_filter_history_textActivated(self, text):$/;"	m	class:MainWindow
+cfg_write	modules/GamelistTable.py	/^    def cfg_write(self, data, file):$/;"	m	class:GamelistTable
+check_version	modules/misc.py	/^def check_version():$/;"	f
+clear_sort	modules/GamelistTable.py	/^    def clear_sort(self):$/;"	m	class:GamelistTable
+closeEvent	modules/MainWindow.py	/^    def closeEvent(self, event):$/;"	m	class:MainWindow
+columnCount	modules/GamelistTable.py	/^    def columnCount(self, index):$/;"	m	class:GamelistTableModel
+commitData	modules/GamelistTable.py	/^    def commitData(self, editor):$/;"	m	class:GamelistTable
+commitData	modules/MainWindow.py	/^    def commitData(self, editor):$/;"	m	class:MainWindow
+csv_write	modules/GamelistTable.py	/^    def csv_write(self, data, file, header):$/;"	m	class:GamelistTable
+csv_write_stdout	modules/GamelistTable.py	/^    def csv_write_stdout(self, data, header):$/;"	m	class:GamelistTable
+data	modules/GamelistTable.py	/^    def data(self, index, role):$/;"	m	class:GamelistTableModel
+data_to_cfg	modules/GamelistTable.py	/^    def data_to_cfg(self,$/;"	m	class:GamelistTable
+data_to_csv	modules/GamelistTable.py	/^    def data_to_csv(self,$/;"	m	class:GamelistTable
+data_to_json	modules/GamelistTable.py	/^    def data_to_json(self,$/;"	m	class:GamelistTable
+data_to_txt	modules/GamelistTable.py	/^    def data_to_txt(self,$/;"	m	class:GamelistTable
+data_to_xml	modules/GamelistTable.py	/^    def data_to_xml(self,$/;"	m	class:GamelistTable
+dbb_edit_buttons_clicked	modules/MainWindow.py	/^    def dbb_edit_buttons_clicked(self, button):$/;"	m	class:MainWindow
+dbb_export_buttons_clicked	modules/MainWindow.py	/^    def dbb_export_buttons_clicked(self, button):$/;"	m	class:MainWindow
+dbb_import_buttons_clicked	modules/MainWindow.py	/^    def dbb_import_buttons_clicked(self, button):$/;"	m	class:MainWindow
+dialog_choose_file	modules/dialogs.py	/^def dialog_choose_file(title,$/;"	f
+disable_edit	modules/GamelistTable.py	/^    def disable_edit(self):$/;"	m	class:GamelistTable
+disable_editbox	modules/MainWindow.py	/^    def disable_editbox(self):$/;"	m	class:MainWindow
+duplicate	modules/GamelistTable.py	/^    def duplicate(self, row, ignore_header=[]):$/;"	m	class:GamelistTable
+duplicateRows	modules/GamelistTable.py	/^    def duplicateRows(self, source_row, ignore,$/;"	m	class:GamelistTableModel
+enable_edit	modules/GamelistTable.py	/^    def enable_edit(self):$/;"	m	class:GamelistTable
+enable_editbox	modules/MainWindow.py	/^    def enable_editbox(self):$/;"	m	class:MainWindow
+enable_toolbox_source	modules/MainWindow.py	/^    def enable_toolbox_source(self, source, id):$/;"	m	class:MainWindow
+enable_toolbox_weblinks	modules/MainWindow.py	/^    def enable_toolbox_weblinks(self, enable=True):$/;"	m	class:MainWindow
+enable_widgets	modules/MainWindow.py	/^    def enable_widgets(self, enable):$/;"	m	class:MainWindow
+enable_widgets_cfg	modules/MainWindow.py	/^    def enable_widgets_cfg(self, enable):$/;"	m	class:MainWindow
+enable_widgets_csv	modules/MainWindow.py	/^    def enable_widgets_csv(self, enable):$/;"	m	class:MainWindow
+executable	gamelistedit.py	/^        executable = os.path.abspath(__file__)$/;"	v
+executable	gamelistedit.py	/^        executable = sys.executable$/;"	v
+executable	gamelistedit.py	/^    executable = os.path.realpath(executable)$/;"	v
+export_cfg	modules/MainWindow.py	/^    def export_cfg(self, data, file, progress):$/;"	m	class:MainWindow
+export_csv	modules/MainWindow.py	/^    def export_csv(self, data, file, export_exclude, exclude_unsupptags,$/;"	m	class:MainWindow
+export_exclude_init	modules/MainWindow.py	/^    def export_exclude_init(self, exclude_list):$/;"	m	class:MainWindow
+export_file	modules/MainWindow.py	/^    def export_file(self):$/;"	m	class:MainWindow
+export_json	modules/MainWindow.py	/^    def export_json(self, data, file, export_exclude, exclude_unsupptags,$/;"	m	class:MainWindow
+export_txt	modules/MainWindow.py	/^    def export_txt(self, data, file, export_exclude, exclude_unsupptags,$/;"	m	class:MainWindow
+export_xml	modules/MainWindow.py	/^    def export_xml(self, data, file, export_exclude, exclude_unsupptags,$/;"	m	class:MainWindow
+extend_settings_meta	modules/meta.py	/^def extend_settings_meta(settings):$/;"	f
+filter	modules/GamelistTable.py	/^    def filter(self, head, filter, regex=False, case=False, widget=None):$/;"	m	class:GamelistTable
+flags	modules/GamelistTable.py	/^    def flags(self, index):$/;"	m	class:GamelistTableModel
+frozen	modules/misc.py	/^def frozen():$/;"	f
+gamelist_selectionChanged	modules/MainWindow.py	/^    def gamelist_selectionChanged(self, newSelection, oldSelection):$/;"	m	class:MainWindow
+get_all_selected_mindex	modules/GamelistTable.py	/^    def get_all_selected_mindex(self):$/;"	m	class:GamelistTable
+get_arguments	modules/arguments.py	/^def get_arguments():$/;"	f
+get_data	modules/GamelistTable.py	/^    def get_data(self, index=None):$/;"	m	class:GamelistTable
+get_data_index	modules/GamelistTable.py	/^    def get_data_index(self, mindex):$/;"	m	class:GamelistTable
+get_display_row	modules/GamelistTable.py	/^    def get_display_row(self, index):$/;"	m	class:GamelistTable
+get_filtered_tabledata	modules/GamelistTable.py	/^    def get_filtered_tabledata(self):$/;"	m	class:GamelistTable
+get_genres	modules/GamelistTable.py	/^    def get_genres(self, groups=False):$/;"	m	class:GamelistTable
+get_header	modules/GamelistTable.py	/^    def get_header(self, head=None):$/;"	m	class:GamelistTable
+get_index_data_byselection	modules/MainWindow.py	/^    def get_index_data_byselection(self):$/;"	m	class:MainWindow
+get_instances	modules/GamelistTable.py	/^    def get_instances(self):$/;"	m	class:GamelistTable
+get_locked_header	modules/GamelistTable.py	/^    def get_locked_header(self):$/;"	m	class:GamelistTable
+get_meta	modules/meta.py	/^def get_meta(key=None):$/;"	f
+get_path	modules/path.py	/^def get_path(file, useglob=True):$/;"	f
+get_remove_empty	modules/MainWindow.py	/^    def get_remove_empty(self):$/;"	m	class:MainWindow
+get_selected_mindex	modules/GamelistTable.py	/^    def get_selected_mindex(self):$/;"	m	class:GamelistTable
+get_wordlist	modules/GamelistTable.py	/^    def get_wordlist(self, header):$/;"	m	class:GamelistTable
+has_data	modules/GamelistTable.py	/^    def has_data(self):$/;"	m	class:GamelistTable
+headerData	modules/GamelistTable.py	/^    def headerData(self, section, orientation, role=QtCore.Qt.DisplayRole):$/;"	m	class:GamelistTableModel
+hide_header	modules/GamelistTable.py	/^    def hide_header(self, hidelist):$/;"	m	class:GamelistTable
+hide_header_and_controls	modules/MainWindow.py	/^    def hide_header_and_controls(self, hidelist):$/;"	m	class:MainWindow
+import_file	modules/MainWindow.py	/^    def import_file(self):$/;"	m	class:MainWindow
+insert	modules/GamelistTable.py	/^    def insert(self):$/;"	m	class:GamelistTable
+insertRows	modules/GamelistTable.py	/^    def insertRows(self, position, rows=1, index=QtCore.QModelIndex()):$/;"	m	class:GamelistTableModel
+instances	modules/GamelistTable.py	/^    instances = 0$/;"	v	class:GamelistTable
+is_edited	modules/GamelistTable.py	/^    def is_edited(self):$/;"	m	class:GamelistTableModel
+is_edited_cell	modules/GamelistTable.py	/^    def is_edited_cell(self, index, hindex):$/;"	m	class:GamelistTableModel
+is_edited_row	modules/GamelistTable.py	/^    def is_edited_row(self, index):$/;"	m	class:GamelistTableModel
+is_unsaved	modules/GamelistTable.py	/^    def is_unsaved(self):$/;"	m	class:GamelistTable
+json_write	modules/GamelistTable.py	/^    def json_write(self, data, file):$/;"	m	class:GamelistTable
+jump_to_tab	modules/MainWindow.py	/^    def jump_to_tab(self, tab):$/;"	m	class:MainWindow
+le_export_file_editingFinished	modules/MainWindow.py	/^    def le_export_file_editingFinished(self):$/;"	m	class:MainWindow
+le_export_file_returnPressed	modules/MainWindow.py	/^    def le_export_file_returnPressed(self):$/;"	m	class:MainWindow
+le_export_file_textChanged	modules/MainWindow.py	/^    def le_export_file_textChanged(self, text):$/;"	m	class:MainWindow
+le_filter_editingFinished	modules/MainWindow.py	/^    def le_filter_editingFinished(self):$/;"	m	class:MainWindow
+le_filter_textChanged	modules/MainWindow.py	/^    def le_filter_textChanged(self):$/;"	m	class:MainWindow
+le_import_file_returnPressed	modules/MainWindow.py	/^    def le_import_file_returnPressed(self):$/;"	m	class:MainWindow
+le_import_file_textChanged	modules/MainWindow.py	/^    def le_import_file_textChanged(self, text):$/;"	m	class:MainWindow
+load	modules/GamelistTable.py	/^    def load(self,$/;"	m	class:GamelistTableModel
+lock_columns	modules/GamelistTable.py	/^    def lock_columns(self, locklist):$/;"	m	class:GamelistTable
+lock_controls	modules/MainWindow.py	/^    def lock_controls(self, locklist):$/;"	m	class:MainWindow
+mainwin	gamelistedit.py	/^    mainwin = MainWindow(arguments)$/;"	v
+meta	modules/meta.py	/^    meta = get_meta()$/;"	v
+msg_continue	modules/dialogs.py	/^def msg_continue(message, mode='Question', title=None, parent=None, force=False):$/;"	f
+msg_show_error	modules/dialogs.py	/^def msg_show_error(message, mode):$/;"	f
+msg_stderr	modules/dialogs.py	/^def msg_stderr(part1, part2=None, is_critical=False):$/;"	f
+new_gamelist	modules/MainWindow.py	/^    def new_gamelist(self, file, table):$/;"	m	class:MainWindow
+normalize_path	modules/path.py	/^def normalize_path(path):$/;"	f
+rb_export_format_clicked	modules/MainWindow.py	/^    def rb_export_format_clicked(self):$/;"	m	class:MainWindow
+rb_export_format_toggled	modules/MainWindow.py	/^    def rb_export_format_toggled(self):$/;"	m	class:MainWindow
+rb_export_format_toggled_cfg	modules/MainWindow.py	/^    def rb_export_format_toggled_cfg(self):$/;"	m	class:MainWindow
+rb_export_format_toggled_csv	modules/MainWindow.py	/^    def rb_export_format_toggled_csv(self):$/;"	m	class:MainWindow
+remove	modules/GamelistTable.py	/^    def remove(self, row):$/;"	m	class:GamelistTable
+removeRows	modules/GamelistTable.py	/^    def removeRows(self, position, rows=1, index=QtCore.QModelIndex()):$/;"	m	class:GamelistTableModel
+remove_locked_columns	modules/GamelistTable.py	/^    def remove_locked_columns(self, head):$/;"	m	class:GamelistTableModel
+rename_le_export_file_ext	modules/MainWindow.py	/^    def rename_le_export_file_ext(self, ext):$/;"	m	class:MainWindow
+reset_row_data	modules/MainWindow.py	/^    def reset_row_data(self):$/;"	m	class:MainWindow
+reset_unsaved	modules/GamelistTable.py	/^    def reset_unsaved(self):$/;"	m	class:GamelistTable
+resize_header	modules/GamelistTable.py	/^    def resize_header(self, index, size):$/;"	m	class:GamelistTable
+retranslateUi	modules/gamelistedit_ui.py	/^    def retranslateUi(self, mainwindow):$/;"	m	class:Ui_mainwindow
+rowCount	modules/GamelistTable.py	/^    def rowCount(self, index):$/;"	m	class:GamelistTableModel
+run_with_default_app	modules/misc.py	/^def run_with_default_app(file):$/;"	f
+sameasopen	modules/MainWindow.py	/^    def sameasopen(self, file):$/;"	m	class:MainWindow
+select_last_table_row	modules/MainWindow.py	/^    def select_last_table_row(self):$/;"	m	class:MainWindow
+select_table_row	modules/MainWindow.py	/^    def select_table_row(self, row=0):$/;"	m	class:MainWindow
+setData	modules/GamelistTable.py	/^    def setData(self, index, value, role):$/;"	m	class:GamelistTableModel
+set_completer	modules/GamelistTable.py	/^    def set_completer(self, widget, wordlist, FilterMode='MatchStartsWith'):$/;"	m	class:GamelistTable
+set_export_exclude_checkbox	modules/MainWindow.py	/^    def set_export_exclude_checkbox(self, checkbox, state):$/;"	m	class:MainWindow
+set_export_format	modules/MainWindow.py	/^    def set_export_format(self, file=None):$/;"	m	class:MainWindow
+set_export_indent	modules/MainWindow.py	/^    def set_export_indent(self):$/;"	m	class:MainWindow
+set_filter_header	modules/MainWindow.py	/^    def set_filter_header(self, head):$/;"	m	class:MainWindow
+set_fullscreen	modules/MainWindow.py	/^    def set_fullscreen(self, enable):$/;"	m	class:MainWindow
+set_header_sizes	modules/MainWindow.py	/^    def set_header_sizes(self, resizedict):$/;"	m	class:MainWindow
+set_l_export_available	modules/MainWindow.py	/^    def set_l_export_available(self):$/;"	m	class:MainWindow
+set_le_export_file	modules/MainWindow.py	/^    def set_le_export_file(self, text):$/;"	m	class:MainWindow
+set_le_import_file	modules/MainWindow.py	/^    def set_le_import_file(self, text):$/;"	m	class:MainWindow
+set_settings	modules/settings.py	/^def set_settings(main_path, arguments):$/;"	f
+set_unsaved	modules/GamelistTable.py	/^    def set_unsaved(self):$/;"	m	class:GamelistTable
+set_window_style	modules/misc.py	/^def set_window_style(app):$/;"	f
+settings	modules/settings.py	/^settings = dict()$/;"	v
+setupUi	modules/gamelistedit_ui.py	/^    def setupUi(self, mainwindow):$/;"	m	class:Ui_mainwindow
+sort_header	modules/GamelistTable.py	/^    def sort_header(self, sortlist):$/;"	m	class:GamelistTable
+t_tabs_currentChanged	modules/MainWindow.py	/^    def t_tabs_currentChanged(self, index):$/;"	m	class:MainWindow
+tb_export_filedialog_clicked	modules/MainWindow.py	/^    def tb_export_filedialog_clicked(self):$/;"	m	class:MainWindow
+tb_import_filedialog_clicked	modules/MainWindow.py	/^    def tb_import_filedialog_clicked(self):$/;"	m	class:MainWindow
+tb_search_emulation_clicked	modules/MainWindow.py	/^    def tb_search_emulation_clicked(self):$/;"	m	class:MainWindow
+tb_search_games_clicked	modules/MainWindow.py	/^    def tb_search_games_clicked(self):$/;"	m	class:MainWindow
+tb_search_romhacks_clicked	modules/MainWindow.py	/^    def tb_search_romhacks_clicked(self):$/;"	m	class:MainWindow
+tb_search_source_clicked	modules/MainWindow.py	/^    def tb_search_source_clicked(self):$/;"	m	class:MainWindow
+tb_search_video_clicked	modules/MainWindow.py	/^    def tb_search_video_clicked(self):$/;"	m	class:MainWindow
+tb_search_web_clicked	modules/MainWindow.py	/^    def tb_search_web_clicked(self):$/;"	m	class:MainWindow
+tb_search_wiki_clicked	modules/MainWindow.py	/^    def tb_search_wiki_clicked(self):$/;"	m	class:MainWindow
+tb_toggle_editbox_clicked	modules/MainWindow.py	/^    def tb_toggle_editbox_clicked(self):$/;"	m	class:MainWindow
+toggle_filterbar_activated	modules/MainWindow.py	/^    def toggle_filterbar_activated(self):$/;"	m	class:MainWindow
+toggle_fullscreen	modules/MainWindow.py	/^    def toggle_fullscreen(self):$/;"	m	class:MainWindow
+toggle_weblinks_activated	modules/MainWindow.py	/^    def toggle_weblinks_activated(self):$/;"	m	class:MainWindow
+txt_write	modules/GamelistTable.py	/^    def txt_write(self, data, file):$/;"	m	class:GamelistTable
+unlock_columns	modules/GamelistTable.py	/^    def unlock_columns(self, unlocklist):$/;"	m	class:GamelistTable
+update_completer	modules/MainWindow.py	/^    def update_completer(self):$/;"	m	class:MainWindow
+update_editbox	modules/MainWindow.py	/^    def update_editbox(self, reset=False):$/;"	m	class:MainWindow
+update_icount_display	modules/MainWindow.py	/^    def update_icount_display(self, index):$/;"	m	class:MainWindow
+update_selected_row	modules/GamelistTable.py	/^    def update_selected_row(self):$/;"	m	class:GamelistTable
+view_doubleClicked	modules/MainWindow.py	/^    def view_doubleClicked(self, mindex):$/;"	m	class:MainWindow
+xml_indent_root	modules/GamelistTable.py	/^    def xml_indent_root(self, element, level=0, indent=4):$/;"	m	class:GamelistTable
+xml_to_string	modules/GamelistTable.py	/^    def xml_to_string(self, data, indent):$/;"	m	class:GamelistTable
+xml_write	modules/GamelistTable.py	/^    def xml_write(self, data, file):$/;"	m	class:GamelistTable
+xmltag_to_dict	modules/GamelistTable.py	/^    def xmltag_to_dict(self, tag):$/;"	m	class:GamelistTable
